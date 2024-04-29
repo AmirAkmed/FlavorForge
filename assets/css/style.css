@@ -3,13 +3,44 @@
     padding:0;
     box-sizing: border-box;
 }
-footer {
-    background-color: lightgray;
+
+nav{
+    display: flex;   
+}
+.navbar {
+    background-color: #8C1C13;
+    position: fixed;
     width: 100%;
+}
+.navbar a,
+.copyright {
+    color: #F2B880;
+    font-weight: 700;
+}
+.active {
+    color: antiquewhite !important;
+}
+.navbar a:hover {
+    color: antiquewhite;
+}
+
+form {
+    justify-content: flex-end ;
+     display: flex;
+}
+
+.info {
+    height: 95vh;
+}
+
+footer {
+    background-color: #8C1C13; 
 }
 footer ul {
     display: flex;
-    list-style-type: none;
     justify-content: space-around;
-    margin-top: 10px;
+    list-style-type: none;   
+}
+footer a {
+    color: #F2B880;
 }

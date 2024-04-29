@@ -1,0 +1,15 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+footer {
+    background-color: lightgray;
+    width: 100%;
+}
+footer ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin-top: 10px;
+}

@@ -79,8 +79,8 @@ background-color: ;
     margin-bottom: 15px;
 }
 .card ul {
-    text-align: justify;
+    text-align: left;
 }
 .card ol {
-    text-align: justify;
+    text-align: left;
 }

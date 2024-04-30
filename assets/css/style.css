@@ -50,7 +50,7 @@ footer a {
     text-align: center;
 }
 div #italian,
-div #indian,'
+div #indian,
 div #african {
     text-align: center;
 }
@@ -60,7 +60,6 @@ div #african {
 }
 .recipe-page div {
     min-height: 35px;
-background-color: ;
 }
 /*recipe page nav*/
 #page-nav {

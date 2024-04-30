@@ -11,6 +11,7 @@ nav{
     background-color: #8C1C13;
     position: fixed;
     width: 100%;
+    z-index: 5;
 }
 .navbar a,
 .copyright {
@@ -29,9 +30,6 @@ form {
      display: flex;
 }
 
-.info {
-    height: 95vh;
-}
 
 footer {
     background-color: #8C1C13; 
@@ -62,5 +60,15 @@ div #westafrican {
 }
 .recipe-page div {
     min-height: 35px;
-background-color: #BF4342 ;
+background-color: ;
+}
+.card {
+    background-color: #F2B880;
+    margin-bottom: 15px;
+}
+.card ul {
+    text-align: justify;
+}
+.card ol {
+    text-align: justify;
 }

@@ -11,11 +11,15 @@ nav{
     background-color: #8C1C13;
     position: fixed;
     width: 100%;
+
     top: 0;
     left: 0;
     right: 0;
     z-index: 1030; /* Adjust the z-index as needed */
     
+
+    z-index: 5;
+
 }
 .navbar a,
 .copyright {
@@ -34,9 +38,6 @@ form {
      display: flex;
 }
 
-.info {
-    height: 95vh;
-}
 
 footer {
     background-color: #8C1C13; 
@@ -49,3 +50,47 @@ footer ul {
 footer a {
     color: #F2B880;
 }
+
+
+/*recipe page*/
+.recipe-sec
+ {
+    margin-top: 50px;
+    text-align: center;
+}
+div #italian,
+div #indian,'
+div #westafrican {
+    text-align: center;
+}
+.recipe-page {
+    text-align: center;
+    
+}
+.recipe-page div {
+    min-height: 35px;
+background-color: ;
+}
+/*recipe page nav*/
+#page-nav {
+    text-decoration: none;
+    color: #8C1C13;
+    font-weight: 500;
+} 
+#page-nav:hover {
+    text-decoration: none;
+    color: #F2B880;
+} 
+
+/*cards*/
+.card {
+    background-color: #F2B880;
+    margin-bottom: 15px;
+}
+.card ul {
+    text-align: justify;
+}
+.card ol {
+    text-align: justify;
+}
+

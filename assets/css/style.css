@@ -11,6 +11,11 @@ nav{
     background-color: #8C1C13;
     position: fixed;
     width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030; /* Adjust the z-index as needed */
+    
 }
 .navbar a,
 .copyright {

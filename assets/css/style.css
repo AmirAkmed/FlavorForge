@@ -62,6 +62,18 @@ div #westafrican {
     min-height: 35px;
 background-color: ;
 }
+/*recipe page nav*/
+#page-nav {
+    text-decoration: none;
+    color: #8C1C13;
+    font-weight: 500;
+} 
+#page-nav:hover {
+    text-decoration: none;
+    color: #F2B880;
+} 
+
+/*cards*/
 .card {
     background-color: #F2B880;
     margin-bottom: 15px;

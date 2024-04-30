@@ -3,7 +3,7 @@
     padding:0;
     box-sizing: border-box;
 }
-
+/*navbar and footer*/
 nav{
     display: flex;   
 }
@@ -59,8 +59,8 @@ footer a {
     text-align: center;
 }
 div #italian,
-div #indian,'
-div #westafrican {
+div #indian,
+div #african {
     text-align: center;
 }
 .recipe-page {
@@ -69,18 +69,38 @@ div #westafrican {
 }
 .recipe-page div {
     min-height: 35px;
-background-color: ;
 }
 /*recipe page nav*/
 #page-nav {
     text-decoration: none;
-    color: #8C1C13;
+    color: #F2B880;
     font-weight: 500;
 } 
 #page-nav:hover {
     text-decoration: none;
-    color: #F2B880;
+    color: antiquewhite;
 } 
+.cuisine {
+    background-color: #8C1C13;
+    color: #F2B880;
+}
+.cuisine a {
+  color: #F2B880;
+font-weight: 800;
+  font-size: large;
+}
+.recipe-page {
+    padding: 20px;
+}
+.recipe-page h1 {
+    color: #8C1C13;
+    font-size: xx-large;
+    margin-top: 15px;
+    font-weight: 700;
+}
+.recipe-page h2 {
+    color: #8C1C13;
+}
 
 /*cards*/
 .card {
@@ -88,9 +108,15 @@ background-color: ;
     margin-bottom: 15px;
 }
 .card ul {
-    text-align: justify;
+    text-align: left;
 }
 .card ol {
-    text-align: justify;
+    text-align: left;
+}
+/*download buttons*/
+.btn .download {
+    background-color: #8C1C13;
+    color: #F2B880;
+    width: 75px;
 }
 

@@ -119,7 +119,11 @@ font-weight: 800;
     color: #F2B880;
     width: 75px;
 }
+ 
+.main-container {
+    background-color: antiquewhite;
 
+}
 .page-content h1 {
    color: brown; /* Tomato color */
     font-family: 'Open Sans', sans-serif; 
@@ -129,14 +133,22 @@ font-weight: 800;
 
   .call-message p {
     font-size: 16px; /* Example font size */
-    color: black; /* Example text color */
+    color: black; 
     font-style: italic;
-    line-height: 1.5; /* Example line height */
-    /* Add more CSS properties as needed */
+    line-height: 1.5; 
+    
   }
 
-  .pizza-image, jollof-image, indcurry-image {
+  .pizza-image jollof-image indcurry-image {
     width: 100%;
   }
 
-  
+  body {
+    padding-top: 56px; /* Adjust this value based on the height of your navbar */
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .hero-section {
+    scrollbar-gutter: 0;
+  }

@@ -94,3 +94,18 @@ background-color: ;
     text-align: justify;
 }
 
+.page-content h1 {
+   color: brown; /* Tomato color */
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 36px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  }
+
+  .call-message {
+    background-color: #f8f8f8; 
+    padding: 20px; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    max-width: 800px; 
+    margin: 0 auto; 
+  }

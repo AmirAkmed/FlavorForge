@@ -12,19 +12,19 @@
 <br />
 <div align="center">
   <a href="https://github.com/scientistigwe/README-Template">
-    <img src="./assets/images/logo.png" alt="Project Logo" width="80" height="80">
+    <img src="./assets/images/flavourforge.png" alt="Project Logo"  height="60"
     </div>
   </a>
 
   <h1 align="center">Flavour Forge</h1>
 
   <p align="center">
-    A README template that can be adapted to suite your projects!
     <br>
-    (Replace with a short intro sentence about your project).
+    Flavour Forge: A Global Culinary Repository
+Flavour Forge project is about an ultimate destination for exploring and sharing culinary experiences from across the globe. As a comprehensive resource for recipes spanning diverse cultures and cuisines, the platform serves as a hub for culinary enthusiasts, home cooks, and professional chefs alike. It will allow users to discover, contribute, and experiment with a vast array of recipes, from traditional favorites to innovative creations. The project aims to foster a vibrant community of food lovers, providing a seamless and intuitive platform for discovering, sharing, and celebrating the rich tapestry of global gastronomy. Join us in the culinary journey of a lifetime with Flavour Forge.
     <br />
     <br />
-    <a href="https://github.com/path-to-readme-file"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/AmirAkmed/FlavorForge/blob/main/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
 
@@ -104,15 +104,15 @@ This section contains summary information about the project, the user expections
 
 <h2 id="about-the-project">About The Project</h2>
 
-<p align="center"><a href="https://path-to-deployed-site.com">"**name-of-project**"</a></p>
+<p align="center"><a href="https://amirakmed.github.io/FlavorForge/">Visit our site: Flavour Forge</a></p>
 
-<a href="https://github.com/scientistigwe/README-Template">
-<img src="./assets/images/screenshot.png" alt="Product Screenshot" width="600" height="600">
+<a href="https://github.com/AmirAkmed/FlavorForge/blob/main/README.md">
+<img src="./assets/images/landingpage-1pz.png" alt="Product Screenshot" width="600" height="600">
 </a>
 
 <h2 id="ux">User Experience (UX)</h2>
 
-"**name-of-project**" is a software designed to provide abc services.
+****Flavour Forge**** is a website designed to provide easy and convenient access to a world of cuisines from international sources.
 
 The uniqueness of this project are:
 
@@ -121,23 +121,22 @@ The uniqueness of this project are:
 - 123
 - etc
 
-You can view the deployed website [here](https://path-to-deployed-site.com)
+You can view the deployed website [here](https://amirakmed.github.io/FlavorForge/)
 
 <h2 id="user-stories">User Stories</h2>
 
-- As a new user of this website, I want to easily.......
-- As a new user of this website, I want to quickly.......
-- As a new user of this website, I want to quickly.......
-- As a new user of this website, I want to see.......
-- As a new user of this website, I want to see.......
-- As a new user of this website, I want to easily find.......
+- As a new user of this website, I want to easily see the available recipes
+- As a new user of this website, I want to quickly view them
+- As a new user of this website, I want to quickly make a copy and share
+- As a new user of this website, I want to see what recipes I may like.
+
+- As a new user of this website, I want to easily find recipes and navigate my way round the site
 - As a new user to this website, I want to meet the team
-- As a user, I want to follow xyz on social media.......
-- etc
+- As a user, I want to follow Flavour Forge on Twitter, Facebook, YouTube etc.
 
 <h2 id="technology-stack">Technology Stack</h2>
 
-This subsection outlines the technologies, frameworks, libraries, and tools used in the development of this project. It provides insight into the foundational components that power "**name-of-project**". Add-ons ad plugins are captured in the acknowledgements subsection (N/B: below are dummy samples. Replace with the actual project frameworks and libraries).
+This subsection outlines the technologies, frameworks, libraries, and tools used in the development of this project. It provides insight into the foundational components that power "**Flavour Forge**". Add-ons ad plugins are captured in the acknowledgements subsection.
 
 <h2 id="languages-frameworks-libraries">Languages, Frameworks and Libraries</h2>
 
@@ -159,7 +158,7 @@ This subsection outlines the technologies, frameworks, libraries, and tools used
 
 - <img src="./assets/icons/shutterstock.png" width="20px" align="top"><a href="https://www.shutterstock.com/home"> Shutterstock</a> and <img src="./assets/icons/unsplash.png" width="20px" align="top"><a href="https://unsplash.com/"> Unsplash photo</a> - Used for all images on the website.
 
-- <img src="./assets/icons/google_map.png" width="20px" align="top"><a href="https://google-map-generator.com/"> Google Map Generator</a> - Used to import business location.
+
 
 - <img src="./assets/icons/responsive-devices.png" width="20px" align="top"><a href="http://ami.responsivedesign.is/"> Am I Responsive</a> - Used to check if the site is responsive on different screen sizes.
 
@@ -167,29 +166,18 @@ This subsection outlines the technologies, frameworks, libraries, and tools used
 
 - <img src="./assets/icons/html_formatter.png" width="20px" align="top"><a href="https://www.freeformatter.com/html-formatter.html"> Free Online HTML Formatter</a> - Used to correct indentation issues and get rid of excess whitespace.
 
-- <img src="./assets/icons/next_js.png" width="20px" align="top"><a href="[Next-url]"> Next.js</a> - Used for server-side rendering and building modern, scalable web applications.
-
-- <img src="./assets/icons/react..png" width="20px" align="top"><a href="[React-url]"> React.js</a> - Used for building user interfaces, especially single-page applications.
-
-- <img src="./assets/icons/Vue_js.png" width="20px" align="top"><a href="[Vue-url]"> Vue.js</a> - Used for building interactive web interfaces and single-page applications.
-
-- <img src="./assets/icons/angular.png" width="20px" align="top"><a href="[Angular-url]"> Angular</a> - Used for building large-scale, high-performance web applications.
-
-- <img src="./assets/icons/svelte.png" width="20px" align="top"><a href="[Svelte-url]"> Svelte</a> - Used for building fast, lightweight web applications with minimal overhead.
-
-- <img src="./assets/icons/laravel.png" width="20px" align="top"><a href="[Laravel-url]"> Laravel</a> - Used for building web applications with elegant syntax and a robust ecosystem.
 
 - <img src="./assets/icons/bootstrap.png" width="20px" align="top"><a href="[Bootstrap-url]"> Bootstrap</a> - Used for building responsive and mobile-first websites and web applications.
 
-- <img src="./assets/icons/jquery.png" width="20px" align="top"><a href="[JQuery-url]"> jQuery</a> - Used for simplifying HTML document traversing, event handling, and animation.
+
 
 <h2 id="management-and-development">Project Management and Development Approach</h2>
 
-This project was implemented using the Agile Manifesto methodology. Below are the ways this project adhered to the 4 core values and 12 core principles of the aforementioned method:
+This project was implemented using the Agile Manifesto methodology. Below are the ways this project adhered to the 4 core values and 12 core principles of the Agile Methodolgy:
 
 <strong>Four Values of the Agile Manifesto:</strong>
 
-- Vision 1: Customer collaboration over contract negotiation: **[Sample description]** The Team held [**number of meetings**] planning sessions via **Zoom, Google Meet, or Microsoft Teams**, ensuring alignment with customer needs and prioritizing features through user story mapping.
+- Vision 1: Customer collaboration over contract negotiation: **Extensive research was carried on recipes that had popular demand** The Team held [**frequent meetings were held everyday to ensure we were meeting our objects and on target for completion** planning sessions via **Slack, Zoom, Google Meet, or Microsoft Teams**, ensuring alignment with customer needs and prioritizing features through user story mapping.
 - **a screenshot or graphic representation of a Zoom meeting with team members.**
 
 - Vision 2: Responding to change over following a plan: **[Sample description]**: Throughout the project, the team managed (

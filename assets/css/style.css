@@ -61,7 +61,7 @@ footer {
     bottom: 0;
     height: 40px;
     right: 15px;
-    left: 1px;
+    left: 0px;
     margin: 0;
     width: 100vw;
 }
@@ -75,6 +75,9 @@ footer ul {
 footer a {
     color: #F2B880;
 font-size: large;
+}
+footer i:hover {
+    color: antiquewhite;
 }
 .copyright {
     font-size: x-small;
@@ -93,8 +96,12 @@ font-size: large;
     background-image: url("../img/pexels-kylarose-954677.jpg");
     background-size: cover;
     background-position: 50%;
-    padding: 10%;
+    padding-left: 25%;
+    padding-right: 10%;
+    padding-top: 40px;
+    padding-bottom: 25px;
     flex-grow: 1;
+    min-height: 100vh;
 }
 
 #signup-form {
@@ -144,12 +151,12 @@ div #african {
 }
 
 /*recipe page nav*/
-#page-nav {
+.page-nav {
     text-decoration: none;
     color: #F2B880;
-    font-weight: 500;
+    font-weight: 300;
 } 
-#page-nav:hover {
+.page-nav:hover {
     text-decoration: none;
     color: antiquewhite;
 } 
@@ -160,24 +167,21 @@ div #african {
     width: 100%;
     z-index: 4;
     right: 15px;
-    left: 1px;
+    left: 0px;
     margin: 0;
     width: 100vw;
+    margin-top: 40px;
 }
 .cuisine a {
   color: #F2B880;
-font-weight: 800;
+font-weight: 600;
   font-size: large;
 }
-#italian:target::before {
-    content: "";
-    display: block;
-    height: 150px; /* fixed header height*/
-    margin: -150px 0 0; /* negative fixed header height */
-  }
+
 .recipe-section{
     padding: 5%;
     text-align: center;
+    padding-top: 50px;
 }
 
 .recipe-section h2 {
@@ -235,10 +239,10 @@ font-weight: 800;
   }
 
 
-  body {
-    padding-top: 40px;  
+  body { 
     padding-left: 0%;
     height: 100%;
+    
   }
 
   .carousel-item {
@@ -256,3 +260,13 @@ font-weight: 800;
     padding-right: 0;
   }
 
+  @media screen and (max-width: 760px) {
+   
+    .container-form #signup-form {
+        width: 100%;
+    }
+    #signup {
+        padding-left: 0;
+        padding-right: 0;
+    }
+  }

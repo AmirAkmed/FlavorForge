@@ -5,8 +5,9 @@
 }
 
 html body {
-    width: 100vw;
-    overflow-x: hidden;
+ width: 100vw;
+ height: 100vh;
+ overflow-x: hidden;   
 }
 
 /*n
@@ -155,6 +156,12 @@ font-weight: 800;
     background-color: aliceblue;
   }
 
+  .carousel {
+    overflow-x: hidden;
+    margin: 0; /* Add this to remove any default margin */
+    padding: 0; /* Add this to remove any default padding */
+  }
+
 
   body {
     padding-top: 56px;  
@@ -167,7 +174,7 @@ font-weight: 800;
   }
   .carousel-item img {
     width: 100%; 
-    height: 700px;
+    height: 500px;
     object-fit: cover;
     margin: 0;
   }

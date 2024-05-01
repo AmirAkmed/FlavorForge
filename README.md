@@ -107,8 +107,9 @@ This section contains summary information about the project, the user expections
 <p align="center"><a href="https://amirakmed.github.io/FlavorForge/">Visit our site: Flavour Forge</a></p>
 
 <a href="https://github.com/AmirAkmed/FlavorForge/blob/main/README.md">
-<img src="./assets/images/landingpage-1pz.png" alt="Product Screenshot" width="600" height="600">
+<img src="https://github.com/AmirAkmed/FlavorForge/assets/images/landingpage-1pz.png" alt="Product Screenshot" width="600" height="600">
 </a>
+
 
 <h2 id="ux">User Experience (UX)</h2>
 

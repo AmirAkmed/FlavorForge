@@ -76,6 +76,9 @@ footer a {
     color: #F2B880;
 font-size: large;
 }
+footer i:hover {
+    color: antiquewhite;
+}
 .copyright {
     font-size: x-small;
     color: #F2B880;

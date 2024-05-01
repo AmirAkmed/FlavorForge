@@ -61,7 +61,7 @@ footer {
     bottom: 0;
     height: 40px;
     right: 15px;
-    left: 1px;
+    left: 0px;
     margin: 0;
     width: 100vw;
 }
@@ -93,7 +93,10 @@ font-size: large;
     background-image: url("../img/pexels-kylarose-954677.jpg");
     background-size: cover;
     background-position: 50%;
-    padding: 10%;
+    padding-left: 25%;
+    padding-right: 10%;
+    padding-top: 40px;
+    padding-bottom: 25px;
     flex-grow: 1;
 }
 
@@ -160,24 +163,21 @@ div #african {
     width: 100%;
     z-index: 4;
     right: 15px;
-    left: 1px;
+    left: 0px;
     margin: 0;
     width: 100vw;
+    margin-top: 40px;
 }
 .cuisine a {
   color: #F2B880;
 font-weight: 800;
   font-size: large;
 }
-#italian:target::before {
-    content: "";
-    display: block;
-    height: 150px; /* fixed header height*/
-    margin: -150px 0 0; /* negative fixed header height */
-  }
+
 .recipe-section{
     padding: 5%;
     text-align: center;
+    padding-top: 50px;
 }
 
 .recipe-section h2 {

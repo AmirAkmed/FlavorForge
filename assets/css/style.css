@@ -3,6 +3,10 @@
     padding:0;
     box-sizing: border-box;
 }
+body {
+    padding: 0;
+}
+
 /*navbar and footer*/
 nav{
     display: flex;   
@@ -10,16 +14,12 @@ nav{
 .navbar {
     background-color: #8C1C13;
     position: fixed;
-    width: 100%;
-
+    width: auto;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1030; /* Adjust the z-index as needed */
-    
-
+    padding: 0;
     z-index: 5;
-
 }
 .navbar a,
 .copyright {
@@ -70,6 +70,7 @@ div #african {
 .recipe-page div {
     min-height: 35px;
 }
+
 /*recipe page nav*/
 #page-nav {
     text-decoration: none;
@@ -89,8 +90,9 @@ div #african {
 font-weight: 800;
   font-size: large;
 }
-.recipe-page {
-    padding: 20px;
+.recipe-section{
+    padding: 5%;
+    text-align: center;
 }
 .recipe-page h1 {
     color: #8C1C13;
@@ -98,7 +100,7 @@ font-weight: 800;
     margin-top: 15px;
     font-weight: 700;
 }
-.recipe-page h2 {
+.recipe-section h2 {
     color: #8C1C13;
 }
 
@@ -106,6 +108,7 @@ font-weight: 800;
 .card {
     background-color: #F2B880;
     margin-bottom: 15px;
+    
 }
 .card ul {
     text-align: left;
@@ -156,14 +159,6 @@ font-weight: 800;
     border-radius: 2px;
     padding: 0 5px;
 }
-
-
-.radio-buttons {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
 
 .join-button {
     margin-top: 20px;

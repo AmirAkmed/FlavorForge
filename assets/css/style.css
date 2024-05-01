@@ -122,6 +122,7 @@ font-size: large;
 }
 textarea {
     background: transparent !important;
+    color: antiquewhite !important;
 }
 
 /*recipe page*/
@@ -168,16 +169,17 @@ div #african {
 font-weight: 800;
   font-size: large;
 }
+#italian:target::before {
+    content: "";
+    display: block;
+    height: 150px; /* fixed header height*/
+    margin: -150px 0 0; /* negative fixed header height */
+  }
 .recipe-section{
     padding: 5%;
     text-align: center;
 }
-.recipe-page h1 {
-    color: #8C1C13;
-    font-size: xx-large;
-    margin-top: 15px;
-    font-weight: 700;
-}
+
 .recipe-section h2 {
     color: #8C1C13;
 }
@@ -253,3 +255,4 @@ font-weight: 800;
     padding-left: 0;
     padding-right: 0;
   }
+

@@ -186,11 +186,7 @@ font-weight: 800;
  
 .main-container {
     background-color: antiquewhite;
-
-
-
-
-
+}
 /*index page*/
 .page-content h1 {
    color: brown; /* Tomato color */
@@ -221,7 +217,7 @@ font-weight: 800;
 
 
   body {
-    padding-top: 56px;  
+    padding-top: 40px;  
     padding-left: 0%;
     height: 100%;
   }

@@ -67,21 +67,21 @@ footer {
     margin: 0;
     width: 100vw;
 }
-footer .row {
-    margin: 0;
-}
+
 footer ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-content: space-evenly;
     list-style-type: none;   
 }
 footer a {
     color: #F2B880;
-font-size: small;
+font-size: large;
 }
 .copyright {
-    font-size: small;
+    font-size: x-small;
     color: #F2B880;
+    margin-top: 10px;
 }
 
 /* Form */
@@ -157,6 +157,13 @@ div #african {
 .cuisine {
     background-color: #8C1C13;
     color: #F2B880;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    right: 15px;
+    left: 1px;
+    margin: 0;
+    width: 100vw;
 }
 .cuisine a {
   color: #F2B880;

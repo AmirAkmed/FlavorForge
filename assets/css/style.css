@@ -51,7 +51,8 @@ footer {
     background-color: #8C1C13;
     width: 100%; 
     bottom: 0;
-    position: fix;
+    left: 0;
+    position: fixed;
 }
 footer ul {
     display: flex;
@@ -132,49 +133,60 @@ font-weight: 800;
 }
  
 .main-container {
-    background-color: antiquewhite;
-
+    
+    height: 60%  !important
 }
+
 .page-content h1 {
-   color: brown; /* Tomato color */
+   color: brown; /* Tomato color*/ 
     font-family: 'Open Sans', sans-serif; 
-    font-size: 36px; 
+    font-size: 3rem; 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
   }
 
   .call-message p {
-    font-size: 16px; /* Example font size */
+    font-size: 1.5rem; /* Example font size*/
     color: black; 
     font-style: italic;
     line-height: 1.5; 
+    padding: 25px;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+
     
   }
 
   .carousel-caption {
     color: black;
     font-weight: bolder;
-    background-color: aliceblue;
+    background-color: rgba(250, 235, 215, 0.6);
   }
 
   .carousel {
     overflow-x: hidden;
-    margin: 0; /* Add this to remove any default margin */
-    padding: 0; /* Add this to remove any default padding */
+    margin: 0; 
+    padding: 0; 
+  
+    overflow-y: aut
+    
+
   }
 
 
   body {
     padding-top: 56px;  
     padding-left: 0%;
-    height: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
   }
 
   .carousel-item {
     width: 100%
   }
+
   .carousel-item img {
     width: 100%; 
-    height: 500px;
     object-fit: cover;
     margin: 0;
   }
@@ -184,3 +196,31 @@ font-weight: 800;
     padding-right: 0;
   }
   
+ 
+   
+
+.carousel-indicator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+  }
+
+  .text-center {
+    padding-bottom: 50px;
+  }
+  
+ /* .carousel-indicator button {
+    background-color: transparent;
+    border: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+    padding: 0;
+  }
+  
+ /* .carousel-indicator button.active {
+    background-color: white; /* Change the color for the active indicator */
+  }

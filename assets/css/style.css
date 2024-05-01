@@ -3,6 +3,15 @@
     padding:0;
     box-sizing: border-box;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin:0;
+    padding:0;
+}
+
 /*navbar and footer*/
 nav{
     display: flex;   
@@ -38,19 +47,48 @@ form {
      display: flex;
 }
 
+/*
+.footer {
+    background-color: #8C1C13;
+    /*following added by Amir*/
+    /*
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+*/
 
 footer {
-    background-color: #8C1C13; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #8C1C13;
+    text-align: center;
+    padding: 0;
+
 }
+
+
 footer ul {
     display: flex;
     justify-content: space-around;
-    list-style-type: none;   
+    list-style-type: none;  
+    margin: 0;
+    padding: 0;
 }
+
 footer a {
     color: #F2B880;
 }
 
+.copyright {
+    text-align: center;
+    font-size: x-small;
+    margin-top: 3px;
+    padding: 0;
+}
 
 /*recipe page*/
 .recipe-sec
@@ -120,23 +158,35 @@ font-weight: 800;
     width: 75px;
 }
 
+/*-------------------------------- Landing Page  */
+
 .page-content h1 {
    color: brown; /* Tomato color */
     font-family: 'Open Sans', sans-serif; 
-    font-size: 36px; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    font-size: 3rem; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    text-align: center;
   }
-
-  .call-message p {
-    font-size: 16px; /* Example font size */
+  
+.call-message p {
+    display: inline-flexbox;
+    text-align: center;
+    font-size:normal; /* Example font size */
     color: black; /* Example text color */
     font-style: italic;
     line-height: 1.5; /* Example line height */
     /* Add more CSS properties as needed */
+    margin: 0 auto;
+    max-width: 560px;
+    padding-left: 25px;
+    padding-right: 25px;
+
   }
 
-  .pizza-image, jollof-image, indcurry-image {
+  .pizza-image, .jollof-image, .indcurry-image {
     width: 100%;
+    max-height: 65vh;
   }
 
   

@@ -8,7 +8,6 @@ body {
     background-color: antiquewhite;
 }
 
-/*navbar and footer*/
 
 html body {
  width: 100vw;
@@ -16,8 +15,7 @@ html body {
  overflow-x: hidden;   
 }
 
-/*n
-avbar and footer*/
+/*navbar and footer*/
 nav{
     display: flex;   
 }
@@ -159,7 +157,7 @@ div #african {
     color: #F2B880;
     position: fixed;
     width: 100%;
-    z-index: 5;
+    z-index: 4;
     right: 15px;
     left: 1px;
     margin: 0;
@@ -255,4 +253,3 @@ font-weight: 800;
     padding-left: 0;
     padding-right: 0;
   }
-  

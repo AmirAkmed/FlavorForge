@@ -61,6 +61,7 @@ footer {
     background-color: #8C1C13;
     width: 100%; 
     bottom: 0;
+    padding-top: 5px;
     position: fix;
 }
 footer ul {
@@ -70,6 +71,10 @@ footer ul {
 }
 footer a {
     color: #F2B880;
+font-size: small;
+}
+#footer-details {
+    font-size: small;
 }
 
 /* Form */

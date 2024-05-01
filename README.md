@@ -16,7 +16,7 @@
     </div>
   </a>
 
-  <h1 align="center">PROJECT TITLE</h1>
+  <h1 align="center">Flavour Forge</h1>
 
   <p align="center">
     A README template that can be adapted to suite your projects!

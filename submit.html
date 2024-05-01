@@ -42,9 +42,10 @@
   </nav>
 <!-- Main content -->
 <main>
-  <section id="signup">
-      <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
-          <h2><i class="fa-solid fa-heartbeat"></i> Let's get you signed up!</h2>
+  <section id="signup" class="signup">
+    <div class="container-form">
+      <form id="signup-form" class="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+          <h2><i class="fa-solid fa-utensils"></i> Let's get cooking!</h2>
           <label for="first-name">First Name</label>
           <input type="text" name="first_name" id="first-name" class="text-input" required>
           <br>
@@ -67,9 +68,11 @@
                   <label for="both">Both</label>
                   <input type="radio" name="running_preference" id="both" value="both" required>
               </div>
+        
           </div>
           <button type="submit" class="join-button">Let's Run!</button>
       </form>
+    </div>
   </section>
 </main>
       <footer>

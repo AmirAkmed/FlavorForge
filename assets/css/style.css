@@ -98,6 +98,7 @@ font-size: large;
     padding-top: 40px;
     padding-bottom: 25px;
     flex-grow: 1;
+    min-height: 100vh;
 }
 
 #signup-form {
@@ -256,3 +257,13 @@ font-weight: 800;
     padding-right: 0;
   }
 
+  @media screen and (max-width: 760px) {
+   
+    .container-form #signup-form {
+        width: 100%;
+    }
+    #signup {
+        padding-left: 0;
+        padding-right: 0;
+    }
+  }

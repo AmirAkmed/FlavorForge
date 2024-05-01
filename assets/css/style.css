@@ -59,22 +59,29 @@ form {
 
 footer {
     background-color: #8C1C13;
-    width: 100%; 
+    position: fixed;
     bottom: 0;
-    padding-top: 5px;
-    position: fix;
+    height: 40px;
+    right: 15px;
+    left: 1px;
+    margin: 0;
+    width: 100vw;
+}
+footer .row {
+    margin: 0;
 }
 footer ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     list-style-type: none;   
 }
 footer a {
     color: #F2B880;
 font-size: small;
 }
-#footer-details {
+.copyright {
     font-size: small;
+    color: #F2B880;
 }
 
 /* Form */

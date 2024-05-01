@@ -114,10 +114,10 @@ font-weight: 800;
     text-align: left;
 }
 /*download buttons*/
-.btn .download {
+.btn-download {
     background-color: #8C1C13;
     color: #F2B880;
-    width: 75px;
+    width: 100px;
 }
 
 
@@ -126,7 +126,7 @@ font-weight: 800;
     background-image: url("../img/pexels-kylarose-954677.jpg");
     background-size: cover;
     background-position: 75%;
-    padding: 20px 10%;
+    padding: 50px 10%;
     flex-grow: 1;
 }
 

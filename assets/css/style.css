@@ -3,7 +3,14 @@
     padding:0;
     box-sizing: border-box;
 }
-/*navbar and footer*/
+
+html body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+/*n
+avbar and footer*/
 nav{
     display: flex;   
 }
@@ -27,7 +34,7 @@ nav{
     font-weight: 700;
 }
 .active {
-    color: antiquewhite !important;
+    color: antiquewhite !important
 }
 .navbar a:hover {
     color: antiquewhite;
@@ -40,7 +47,10 @@ form {
 
 
 footer {
-    background-color: #8C1C13; 
+    background-color: #8C1C13;
+    width: 100%; 
+    bottom: 0;
+    position: fix;
 }
 footer ul {
     display: flex;
@@ -139,16 +149,31 @@ font-weight: 800;
     
   }
 
-  .pizza-image jollof-image indcurry-image {
-    width: 100%;
+  .carousel-caption {
+    color: black;
+    font-weight: bolder;
+    background-color: aliceblue;
   }
+
 
   body {
-    padding-top: 56px; /* Adjust this value based on the height of your navbar */
+    padding-top: 56px;  
     padding-left: 0%;
-    padding-right: 0%;
+    height: 100%;
   }
 
-  .hero-section {
-    scrollbar-gutter: 0;
+  .carousel-item {
+    width: 100%
   }
+  .carousel-item img {
+    width: 100%; 
+    height: 700px;
+    object-fit: cover;
+    margin: 0;
+  }
+
+  .carousel-inner {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  

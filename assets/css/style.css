@@ -102,6 +102,17 @@ footer a {
     border-radius: 2px;
     padding: 0 5px;
 }
+.submit-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #8C1C13;
+    color: #F2B880;
+}
+textarea {
+    background: transparent !important;
+}
 
 /*recipe page*/
 .recipe-sec

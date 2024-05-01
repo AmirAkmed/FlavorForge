@@ -151,12 +151,12 @@ div #african {
 }
 
 /*recipe page nav*/
-#page-nav {
+.page-nav {
     text-decoration: none;
     color: #F2B880;
-    font-weight: 500;
+    font-weight: 300;
 } 
-#page-nav:hover {
+.page-nav:hover {
     text-decoration: none;
     color: antiquewhite;
 } 
@@ -174,7 +174,7 @@ div #african {
 }
 .cuisine a {
   color: #F2B880;
-font-weight: 800;
+font-weight: 600;
   font-size: large;
 }
 

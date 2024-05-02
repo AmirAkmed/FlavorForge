@@ -107,7 +107,7 @@ This section contains summary information about the project, the user expections
 <p align="center"><a href="https://amirakmed.github.io/FlavorForge/">Visit our site: Flavour Forge</a></p>
 
 <a href="https://github.com/AmirAkmed/FlavorForge/blob/main/README.md">
-<img src="https://github.com/AmirAkmed/FlavorForge/assets/images/landingpage-1pz.png" alt="Product Screenshot" width="600" height="600">
+<img src="assets/images/landingpageE2.png" alt="Product Screenshot">
 </a>
 
 
@@ -122,41 +122,41 @@ The uniqueness of this project are:
 - 123
 - etc
 
-You can view the deployed website [here](https://amirakmed.github.io/FlavorForge/)
+You can view the deployed website [here: Flavour Forge](https://amirakmed.github.io/FlavorForge/)
 
 <h2 id="user-stories">User Stories</h2>
 
+<ul>
+<li>As a user I want Navbar to be able to easily navigate between pages</li>
 
-As a user I want Navbar to be able to easily navigate between pages
+<li>As a user role, I want footer with social media links, so that I can access the social media pages for the site.</li>
 
-As a user role, I want footer with social media links, so that I can access the social media pages for the site.
+<li>As a user , I want a carousel hero image, so that I can see straight away a variety of images of the foods I could learn to make from this site.</li>
 
-As a user , I want a carousel hero image, so that I can see straight away a variety of images of the foods I could learn to make from this site.
+<li>As Flavour Forge I want a carousel hero image with descriptions on, to entice the user to want to know more about the recipes we can provide.</li>
 
-As Flavour Forge I want a carousel hero image with descriptions on, to entice the user to want to know more about the recipes we can provide.
+<li>As a user , I want a submission form, so that I can share my own recipes.</li>
 
-As a user , I want a submission form, so that I can share my own recipes.
+<li>As a user , I want a gallery, so that so that I can take inspiration for what to cook next.</li>
 
-As a user , I want a gallery, so that so that I can take inspiration for what to cook next.
+<li>As Flavour Forge I want a gallery to capture the attention and imagination of the user.</li>
 
-As Flavour Forge I want a gallery to capture the attention and imagination of the user.
+<li>As a user, I want clearly separated recipe cards, so that I can clearly read the recipes provided.</li>
 
-As a user, I want clearly separated recipe cards, so that I can clearly read the recipes provided.
+<li>As a user I want Nav buttons for the different sections on the recipe page so that I can easily navigate to the recipes I’m interested in.</li>
 
-As a user I want Nav buttons for the different sections on the recipe page so that I can easily navigate to the recipes I’m interested in.
+<li>As a user I want prep time on the recipe cards so I know how much time to set aside for cooking.</li>
 
-As a user I want prep time on the recipe cards so I know how much time to set aside for cooking.
+<li>As a user I want images on the recipe cards so that I can see what the dish looks like and decide whether I’m interested in making it.</li>
 
-As a user I want images on the recipe cards so that I can see what the dish looks like and decide whether I’m interested in making it.
+<li>As a user, I want to follow Flavour Forge on Twitter, Facebook, YouTube etc.</li>
 
-As a user, I want to follow Flavour Forge on Twitter, Facebook, YouTube etc.
+<li>As Flavour Forge I want  a submission form, so that I can gather more content to put out.</li>
 
-As Flavour Forge I want  a submission form, so that I can gather more content to put out.
+<li>As Flavour Forge I want to collect the name and email on the submission form, so that I can contact the person who submitted the recipe if clarification is needed.</li>
 
-As Flavour Forge I want to collect the name and email on the submission form, so that I can contact the person who submitted the recipe if clarification is needed.
-
-As Flavour Forge I want to separate sections for recipe name, ingredients and instructions on the submission form, so that I can easily move the content into a pre-formatted recipe template.
-
+<li>As Flavour Forge I want to separate sections for recipe name, ingredients and instructions on the submission form, so that I can easily move the content into a pre-formatted recipe template.</li>
+</ul>
 
 <h2 id="technology-stack">Technology Stack</h2>
 
@@ -204,7 +204,7 @@ This project was implemented using the Agile Manifesto methodology. Below are th
 - Vision 1: Customer collaboration over contract negotiation: **Extensive research was carried on recipes that had popular demand** The Team held [**frequent meetings were held everyday to ensure we were meeting our objects and on target for completion** planning sessions via **Slack, Zoom, Google Meet, or Microsoft Teams**, ensuring alignment with customer needs and prioritizing features through user story mapping.
 - **a screenshot or graphic representation of a Zoom meeting with team members.**
 
-- Vision 2: Responding to change over following a plan: **[Sample description]**: Throughout the project, the team managed (
+- Vision 2: Responding to change over following a plan: **[Initially the Gallery page was intended to be structured in a mosaic arrangement of the images however this was not working correctly. We decided to change the design to a card system]**: Throughout the project, the team managed (
   [![GitHub issues](https://img.shields.io/github/issues-closed/github-username/name-of-repository?)](https://github.com/github-username/name-of-repository/issues) + [![GitHub issues](https://img.shields.io/github/issues/github-username/name-of-repository?)](https://github.com/github-username/name-of-repository/issues) ) GitHub issues, adapting to changing requirements and feedback iteratively.
   **A screenshot of the GitHub project board demonstrates their flexibility.**
 
@@ -327,92 +327,113 @@ The key features are:
   - _Hero image_ - appears at the top-[left|right|center] of the home page, below the header section.
   - _Testimonials_ - just below the "**name-of-section**" section, responsively arrange to maximize various device screen width and give users a good experience.
   - _Call to action buttons_ - provides an easy portal to other specific page of "**name-of-project**".
-- **Services** - Services has a dedicated page with a navigation link on both the navbar and one of the call-to-action buttons on the homepage.
-- **Pricing** - Pricing and Plans has a dedicated page with a navigation link on both the navbar and one of the call-to-action buttons on the homepage.
-- **Our Team** - Our Teams has a dedicated page with a navigation link on both the navbar and one of the call-to-action buttons on the homepage.
+
 - **Gallery** - Gallery has a dedicated page with a navigation link on both the navbar and one of the call-to-action buttons on the homepage.
-- **Contact Us** - This is located at the [left|right|center] of the footer.
-
+- **Contact Us** - Submiission page can be used to contact us
 <h2 id="wireframes">Wireframes</h2>
-
-### _File Organisation Tree_
-
-<p align="center">
-<img src="wireframe/file_org_tree.png" width="600" height="700">
-</p>
 
 ### _Home Page_
 
 <p align="center">
-<img src="wireframe/home-page.png" width="600" height="700">
-</p>
-
-### _Services & Prices_
-
-<p align="center">
-<img src="wireframe/services-prices.png" width="600" height="900">
-</p>
-
-### _OurTeam_
-
-<p align="center">
-<img src="wireframe/our-team.png" width="600" height="900">
-</p>
-
-### _Gallery_
-
-<p align="center">
-<img src="wireframe/gallery.png" width="600" height="900">
-</p>
-
-### _Contact Us_
-
-<p align="center">
-<img src="wireframe/contact.png" width="600" height="900">
+<img src="assets/images/HomePageWF.png"  height="700">
 </p>
 
 ### _Mobile View - Home Page_
 
 <p align="center">
-<img src="wireframe/mobile-home-page.png" width="400" height="1000">
+<img src="assets/images/MobileViewFrontPg.png" height="700">
 </p>
+
+### Recipes
+
+<p align="center">
+<img src="assets/images/RecipePageWF.png"  height="700">
+</p>
+
+<p align="center">
+<img src="assets/images/MobileViewRecipePg.png"  height="700">
+</p>
+
+### _Gallery_
+
+<p align="center">
+<img src="assets/images/GalleryPgWF.png"  height="700">
+</p>
+
+<p align="center">
+<img src="assets/images/MobileGalleryPgWF.png"  height="700">
+</p>
+
+### Submission_Form
+
+<p align="center">
+<img src="assets/images/SubmissionPageWF.png"  height="700">
+</p>
+
+<p align="center">
+<img src="assets/images/MobileSubmissionPageWF.png"  height="700">
+</p>
+
+
+<h1>
+<strong> Our Team </strong>
+<br>
+<strong> Amir Ahmed (Lead)</strong>
+<br>
+<strong> Charlie (Developer)</strong>
+<Br>
+<strong> Ernest (Developer)</strong>
+<Br>
+<strong> Yaz (Developer)</strong>
+</h1>
 
 <h2 id="design-and-styling">Design and Styling</h2>
 
 <h3 id="design">Design</h3>
 
-Given the serene ambiance of the establishment, the website echoes this sentiment through its design. Employing a predominantly white background conveys cleanliness, brightness, and sterility—attributes associated with a tranquil setting. Complementary background hues evoke a sense of calmness, while vibrant and colorful imagery aims to immerse visitors in the **[name of project]** ambiance.
+ **Flavour Forge Design**.
+
+Authentic Traditional Feel: Our recipe site embraces authenticity by featuring an Antique White background colour, evoking the warmth and nostalgia of traditional kitchens and family gatherings. This choice immerses users in a cozy and inviting atmosphere, setting the stage for an authentic culinary experience.
+
+Bold and Welcoming Navbar and Footer: The bold red colour of our navbar and footer serve as beacon, welcoming visitors to our culinary Forge with its vibrant warmth and inviting energy. This choice not only adds visual interest but also conveys the passion and excitement we have for sharing our rich culinary heritage with the world.
+
+Tantalizing High-Quality Imagery: We have curated a collection of high-quality, tantalizingly sharp images to showcase the diverse and flavourful recipes featured on the site. These images are more than just visuals—they are windows into the rich tapestry of flavours and experiences awaiting our visitors. Through captivating imagery, we aim to draw viewers in and ignite their curiosity and appetite for exploration
+
 
 <h3 id="color">Color</h3>
 
-- **Main background color - **#color hex** (color name)** - I chose this color because **\*\***\***\*\***
-- **h1 headings and nav bar - [color]** - reason
-- **h2 headings - [color]** - reason
-- **p - [color]** - reason
-- **footer - [color]** - reason
+- **Main background color - **#8c1c13 hex** (color name)**  **\*\***\***\*\***
+- **h1 headings and nav bar - [F2B880]** 
+- **h2 headings - [color]** 
+- **p - [color]**
+- **footer - [color]** 
+Text Color #000000
+Background recipe and landing page and 
+<br>
+Gallery #FAEBD7
+<br>
+Submit Page #3C3C3C
 
 <h3 id="font">Font</h3>
 
-- main font: Font name
-- Secondary font - Font name
+- San Serif
+- 
 
 <h3 id="media">Media</h3>
 
-**Hero image** - short description and reason for selection
+**Hero image** - Beautiful high quality images that are simply mouth watering to view.
 
-**Contact section** - short description and reason for selection
 
-**Services** - short description and reason for selection
+Several Social media links for users to follow:
+**Twitter**   
+**Facebook**   
+**YouTube**   
+**Instagram** 
 
-**Plans and Pricing** - short description and reason for selection
+**Gallery** - neated formated gallery displaying picture from the site with their titles
 
-**Our Team** - short description and reason for selection
+**Contact Us** - Submission form to receive recipes forfuture content
 
-**Gallery** - short description and reason for selection
-
-**Contact Us** - short description and reason for selection
-
-**etc** - short description and reason for selection
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -432,68 +453,106 @@ The W3C Markup Validator and W3C CSS Validator Services were used to check my co
 
 - [HTML](https://validator.w3.org/#validate_by_input)- I checked each page by direct input method on HTML validator site
 
-<p align="center">
-<img src="assets/images/readme/html-validator.png" width="400" height="100%">
-</p>
+
 
 - [CSS](https://jigsaw.w3.org/css-validator/)
 
-<p align="center">
-<img src="assets/images/readme/css-validator.png" width="400" height="100%">
-</p>
+
 
 - I used Lighthouse tools to test my website
-<p align="center">
-<img src="assets/images/readme/lighthouse.png" width="400" height="100%">
-</p>
+
 
 <h3 id="html-validator-report">HTML Validator Report</h3>
+<p>
+Error: Duplicate ID page-nav.
+From line 44, column 26; to line 44, column 57
+Warning: The first occurrence of ID page-nav was here.
+From line 43, column 26; to line 43, column 58
+s="col-4"><a id="page-nav" href="#italian">Italia
 
-- _Warning_ : [details of any warning]
+Error: Duplicate ID page-nav.
+From line 45, column 26; to line 45, column 58
+s="col-4"><a id="page-nav" href="#african">Africa
+s="col-4"><a id="page-nav" href="#indian">Indian
+Changed to class="page-nav"
+Error: Stray end tag div.
+From line 304, column 5; to line 304, column 10
+/div>:leftwards_arrow_with_hook:    </div>:leftwards_arrow_with_hook:
+Error: Stray end tag div.
+From line 405, column 5; to line 405, column 10
+/div>:leftwards_arrow_with_hook:    </div>:leftwards_arrow_with_hook:</sec
+removed
+</p>
 
-  - [actions taken to remedy it].
 
-- _Value Error_ : [details of any error]
-
-  - [actions taken to remedy it].
 
 <h3 id="css-validator-report">CSS Validator Report</h3>
 
-- _Warning_ : [details of any warning]
+  <p align="center">
+  <img src="assets/images/CSSValidator.png" width="700" height="100%">
+  </p>
 
-  - [actions taken to remedy it].
-
-- _Value Error_ : [details of any error]
-
-  - [actions taken to remedy it].
 
 <h2 id="user-story-testing">User Story Testing</h2>
 
-- **User Story 1:** [user story here]
 
-  - [how it was implemented here]
 
-  (N/B: Use image generated from https://ui.dev/amiresponsive to show the the page in 4 different devices)
+- **User Story 1:** 
+As a user I want Navbar to be able to easily navigate between pages
+As a user role, I want footer with social media links, so that I can access the social media pages for the site.
+As a user , I want a carousel hero image, so that I can see straight away a variety of images of the foods I could learn to make from this site.
+As Flavour Forge I want a carousel hero image with descriptions on, to entice the user to want to know more about the recipes we can provide.
 
-  <p align="center">
-  <img src="assets/images/readme/logo-navbar.png" width="700" height="100%">
-  </p>
 
-- **User Story 2:** [user story here]
 
-  - [how it was implemented here]
-
-  (N/B: Use image generated from https://ui.dev/amiresponsive to show the the page in 4 different devices)
 
   <p align="center">
-  <img src="assets/images/readme/logo-navbar.png" width="700" height="100%">
+  <img src="assets/images/LandingpageThu.png">
   </p>
 
-reapeat for all user stories
+- **User Story 2:** 
+
+As a user, I want clearly separated recipe cards, so that I can clearly read the recipes provided.
+As a user I want Nav buttons for the different sections on the recipe page so that I can easily navigate to the recipes I’m interested in.
+As a user I want prep time on the recipe cards so I know how much time to set aside for cooking.
+As a user I want images on the recipe cards so that I can see what the dish looks like and decide whether I’m interested in making it.
+
+  <p align="center">
+  <img src="assets/images/recipes.png">
+  </p>
+
+**User Story 3:** 
+
+As a user , I want a gallery, so that so that I can take inspiration for what to cook next.
+As Flavour Forge I want a gallery to capture the attention and imagination of the user.
+
+  <p align="center">
+  <img src="assets/images/Gallery.png">
+  </p>
+
+**User Story 4:** 
+
+As a user , I want a submission form, so that I can share my own recipes.
+
+  <p align="center">
+  <img src="assets/images/Submit.png">
+  </p>
 
 <h2 id="bugs-and-issues">Bugs and Issues</h2>
 
-- Detail any bug and/or issues encountered, steps taken to correct it. Add images if possible.
+<p>
+- Index page:
+Footer not going full width and covering the content on the index page. Fixed by adjusting padding and margins
+Images from the carousel not lining up when images switch. Fixed using Canva to adjust images to the same pixel size
+Header covering carousel in phone size. Fixed by media query adjusting padding for certain screen sizes.
+Carousel icons dropping down the page well below the image. Fixed by placing the carousel in a separate div to the text section below it.
+Recipe page:
+Tried to create a second row to nav bar but on large screens the buttons would just appear on the normal navbar at the right side. Tried adding containers rows and columns, which failed. Fixed by creating a full width div with buttons matching the navbar and fixing it to the bottom of the nav bar but outside of the nav section. And giving it a z-index higher than the main page content but lower than the nav so that when the dropdown comes down it covers the page nav buttons.
+Footer not going full width and covering the content on the index page. Fixed by adjusting padding and margins
+Gallery page:
+Yaz’s code which worked on VS code didn’t work when added to the gitpod, so he had to adjust his code.
+Yaz’s branch refused to merge with main so merged via Charlie’s branch
+</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -509,19 +568,33 @@ reapeat for all user stories
 
 ### _Home Page_
 
-<p align="center">
-<img src="assets/images/readme/desktop-home-page.png" width="600" height="100%">
-</p>
+https://amirakmed.github.io/FlavorForge/index.html
 
 - Add images of various sections of the final product as above.
 
 <h2 id="credits">Credits</h2>
+<p>
+Choose an Open Source License
+GitHub Emoji Cheat Sheet
+Malven's Flexbox Cheatsheet
+Malven's Grid Cheatsheet
+Img Shields
+GitHub Pages
+Font Awesome
+React Icons
+BBC Good Food Recipes
+Coolors
+</p>
 
 <h3 id="template">Template</h3>
 
-- This template was adopted and adapted from README.md templates published by <a href="https://github.com/scientistigwe/README-Template" alt="Github page of Chibueze C. Igwe" target="_blank">Chibueze C. Igwe</a>, <a href="https://github.com/Iris-Smok/Vannas-Beauty-Salon_PP1" alt="Github page of Iris Smok" target="_blank">Iris Smok</a> and <a href="https://github.com/othneildrew/Best-README-Template" alt="Github page of Othneil Drew" target="_blank">Othneil Drew</a>.
+- This template was adopted and adapted from README.md templates published by <a href="https://github.com/Iris-Smok/Vannas-Beauty-Salon_PP1" alt="Github page of Iris Smok" target="_blank">Iris Smok</a> and <a href="https://github.com/othneildrew/Best-README-Template" alt="Github page of Othneil Drew" target="_blank">Othneil Drew</a>.
 
 <h3 id="content">Content</h3>
+
+Recipes from BBC good Food https://www.bbcgoodfood.com/recipes
+Recipe adjustments for pizzas from Pizza the Action https://www.pizza-the-action.com/
+Text created by chat gpt
 
 - All content was written by [**Your Name**]
 - Mention sections that was not original and the source where it was adopted from.
@@ -531,6 +604,9 @@ reapeat for all user stories
 <h3 id="media2">Media</h3>
 
 - All images were taken from [Shutterstock](https://www.shutterstock.com/home) and [Unsplash photo](https://unsplash.com/)
+
+Recipes from BBC good Food https://www.bbcgoodfood.com/recipes
+Recipe adjustments for pizzas from Pizza the Action https://www.pizza-the-action.com/
 
 <!-- ACKNOWLEDGMENTS -->
 <h2 id="acknowledgments">Acknowledgments</h2>

@@ -564,7 +564,7 @@ Yaz’s branch refused to merge with main so merged via Charlie’s branch
 
 <h2 id="final-product">Final Product</h2>
 
-- The product is live and can be seen on **[url of deployed site]**
+- The product is live and can be seen on **[[url of deployed site](https://amirakmed.github.io/FlavorForge/)]**
 
 ### _Home Page_
 

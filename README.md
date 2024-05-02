@@ -126,14 +126,37 @@ You can view the deployed website [here](https://amirakmed.github.io/FlavorForge
 
 <h2 id="user-stories">User Stories</h2>
 
-- As a new user of this website, I want to easily see the available recipes
-- As a new user of this website, I want to quickly view them
-- As a new user of this website, I want to quickly make a copy and share
-- As a new user of this website, I want to see what recipes I may like.
 
-- As a new user of this website, I want to easily find recipes and navigate my way round the site
-- As a new user to this website, I want to meet the team
-- As a user, I want to follow Flavour Forge on Twitter, Facebook, YouTube etc.
+As a user I want Navbar to be able to easily navigate between pages
+
+As a user role, I want footer with social media links, so that I can access the social media pages for the site.
+
+As a user , I want a carousel hero image, so that I can see straight away a variety of images of the foods I could learn to make from this site.
+
+As Flavour Forge I want a carousel hero image with descriptions on, to entice the user to want to know more about the recipes we can provide.
+
+As a user , I want a submission form, so that I can share my own recipes.
+
+As a user , I want a gallery, so that so that I can take inspiration for what to cook next.
+
+As Flavour Forge I want a gallery to capture the attention and imagination of the user.
+
+As a user, I want clearly separated recipe cards, so that I can clearly read the recipes provided.
+
+As a user I want Nav buttons for the different sections on the recipe page so that I can easily navigate to the recipes I’m interested in.
+
+As a user I want prep time on the recipe cards so I know how much time to set aside for cooking.
+
+As a user I want images on the recipe cards so that I can see what the dish looks like and decide whether I’m interested in making it.
+
+As a user, I want to follow Flavour Forge on Twitter, Facebook, YouTube etc.
+
+As Flavour Forge I want  a submission form, so that I can gather more content to put out.
+
+As Flavour Forge I want to collect the name and email on the submission form, so that I can contact the person who submitted the recipe if clarification is needed.
+
+As Flavour Forge I want to separate sections for recipe name, ingredients and instructions on the submission form, so that I can easily move the content into a pre-formatted recipe template.
+
 
 <h2 id="technology-stack">Technology Stack</h2>
 
